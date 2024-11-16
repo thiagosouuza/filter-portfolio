@@ -1,0 +1,123 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-family: 'Open Sans';
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #DDD;
+}
+
+section{
+	width: 100%;
+    height: auto;
+    max-width: 100%;
+    background-color: #DDD;
+	margin: 0;
+	}
+
+	section aside{
+		width: 100%;
+		height: auto;
+		max-width: 100%;
+		padding: 20px 20px 0px 20px;
+		background-color: #EEE;
+	}
+section aside h1{
+	padding: 80px 0px 5px 0px;
+	color: #444;
+	width: 1040px;
+	height: auto;
+	margin: 6px auto;
+	font-size: 25px;
+	max-width: 100%;
+	position: relative;
+	text-align: center;
+	}
+
+section header{
+	width: 100%;
+	height: auto;
+	padding: 25px 0px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+section header p.active{
+	background-color: #e67e22;
+	color: white;
+}
+
+section header p{
+	width: auto;
+	height: auto;
+	text-align: center;
+	font-size: 11pt;
+	margin-right: 5px;
+	border: 1px solid #ccc;
+	background-color: #3ba6a4;
+	padding: 10px;
+	color: #FFF;
+	cursor: pointer;
+}
+
+	section article{
+		max-width: 100%;
+		width: 900px;
+		height: auto;
+		margin: 0 auto;
+		display: grid;
+		grid-gap: 10px;
+		justify-items: center;
+		grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+		padding: 0;
+		}
+
+		section article figure{
+			width: auto;
+			height: auto;
+			max-width: 100%;
+			overflow: hidden;
+			margin: 2px;
+			position: relative;
+			transition: all 0.4s linear;
+			}
+
+		}
+
+		section article figure div{
+			width: auto;
+			height: auto;
+			max-width: 100%;
+		}
+
+			section article figure div img{
+				width: 400px;
+				height: auto;
+				max-width: 100%;
+				position: relative;
+				transition: 0.6s;
+				margin: 0px;
+				}
+
+				
+
+@media all and (max-width:890px)
+{
+	section article{
+		max-width: 100%;
+		margin: 0 auto;
+		display: grid;
+		grid-gap: 5px;
+		justify-content: center;
+		justify-items: center;
+		grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
+		padding: 40px 10px 10px 10px;
+		}
+
+}
